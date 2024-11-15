@@ -17,12 +17,14 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
-          go-version: 1.20
+          go-version: 1.20 # Set to your Go version
 
       - name: Install golangci-lint
         run: |
-          curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.54.2
+          mkdir -p $HOME/bin
+          curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $HOME/bin v1.54.2
+          echo "$HOME/bin" >> $GITHUB_PATH
           golangci-lint version
 
       - name: Run golangci-lint
-        run: golangci-lint run ./fileazy/...
+        run: golangci-lint run ./...

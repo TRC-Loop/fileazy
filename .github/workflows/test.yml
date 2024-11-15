@@ -23,8 +23,8 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
 
-      - name: Navigate to project directory
-        working-directory: repo/fileazy
+      - name: Navigate to project directory and run tests
+        working-directory: fileazy
         run: |
           go mod tidy
           go test ./...

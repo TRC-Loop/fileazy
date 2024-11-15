@@ -6,4 +6,5 @@ const (
 	OpenConfigHelp         = "Open Config(Settings) Menu"
 	SearchForFileHelp      = "Search for a File, Will show a list of Files/Paths."
 	EditConfigDirectlyHelp = "Edit Config Directly. Use 'Key:Value' Format, to change a Value in the Config."
+	ShowVersionHelp        = "Show Version and other Debug Information"
 )

@@ -10,6 +10,32 @@
   </a>
 </p>
 
+<div align="center">
+  <h2>Built using</h2>
+</div>
+
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=go,bash&perline=15&theme=dark" alt="Skillicons" />
+</p>
+
+<div align="center">
+  <h2>Runs on</h2>
+</div>
+
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=windows,apple,linux,ubuntu,mint&perline=15&theme=dark" alt="Skillicons" />
+</p>
+
+<div align="center">
+  <h2>Tools used</h2>
+</div>
+
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,neovim,regex,vscode&perline=15&theme=dark" alt="Skillicons" />
+</p>
 
 A Fuzzy Search tool with options to preview a file in the Command Line or open it with another program
 
